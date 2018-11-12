@@ -1,21 +1,21 @@
-insert into plan (planid,monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, freeInternetDataUsageUnits,
-					localCallRate, stdCallRate, localSMSRate, stdSMSRate, internetDataUsageRate,
-					planCircle, planName) 
+insert into plan (planid,monthly_Rental, free_Local_Calls, free_Std_Calls, free_LocalSMS, free_StdSMS, free_Internet_Data_Usage_Units,
+					local_Call_Rate, std_Call_Rate, localSMSRate, stdSMSRate, internet_Data_Usage_Rate,
+					plan_Circle, plan_Name) 
 values (5001,250,300,150,100,20,2000,
 		1.00,2.00,0.5,2.5,5,
 		'abc','silver');
 		
-insert into plan (planid,monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, freeInternetDataUsageUnits,
-					localCallRate, stdCallRate, localSMSRate, stdSMSRate, internetDataUsageRate,
-					planCircle, planName) 
+insert into plan (planid,monthly_Rental, free_Local_Calls, free_Std_Calls, free_LocalSMS, free_StdSMS, free_Internet_Data_Usage_Units,
+					local_Call_Rate, std_Call_Rate, localSMSRate, stdSMSRate, internet_Data_Usage_Rate,
+					plan_Circle, plan_Name) 
 values (5002,400,500,300,500,100,5000,
 		1.00,2.00,0.5,2.5,5,
 		'xyz','gold');
 		
 		
-insert into plan (planid,monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, freeInternetDataUsageUnits,
-					localCallRate, stdCallRate, localSMSRate, stdSMSRate, internetDataUsageRate,
-					planCircle, planName) 
+insert into plan (planid,monthly_Rental, free_Local_Calls, free_Std_Calls, free_LocalSMS, free_StdSMS, free_Internet_Data_Usage_Units,
+					local_Call_Rate, std_Call_Rate, localSMSRate, stdSMSRate, internet_Data_Usage_Rate,
+					plan_Circle, plan_Name) 
 values (5003,600,800,500,500,300,10000,
 		1.00,2.00,0.5,2.5,5,
 		'mno','platinum');
