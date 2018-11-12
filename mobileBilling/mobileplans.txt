@@ -1,21 +1,21 @@
 insert into plan (planid,monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, freeInternetDataUsageUnits,
 					localCallRate, stdCallRate, localSMSRate, stdSMSRate, internetDataUsageRate,
 					planCircle, planName) 
-values (plan_seq.nextval,250,300,150,100,20,2000,
+values (5001,250,300,150,100,20,2000,
 		1.00,2.00,0.5,2.5,5,
 		'abc','silver');
 		
-insert into plan (monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, freeInternetDataUsageUnits,
+insert into plan (planid,monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, freeInternetDataUsageUnits,
 					localCallRate, stdCallRate, localSMSRate, stdSMSRate, internetDataUsageRate,
 					planCircle, planName) 
-values (400,500,300,500,100,5000,
+values (5002,400,500,300,500,100,5000,
 		1.00,2.00,0.5,2.5,5,
 		'xyz','gold');
 		
 		
-insert into plan (monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, freeInternetDataUsageUnits,
+insert into plan (planid,monthlyRental, freeLocalCalls, freeStdCalls, freeLocalSMS, freeStdSMS, freeInternetDataUsageUnits,
 					localCallRate, stdCallRate, localSMSRate, stdSMSRate, internetDataUsageRate,
 					planCircle, planName) 
-values (600,800,500,500,300,10000,
+values (5003,600,800,500,500,300,10000,
 		1.00,2.00,0.5,2.5,5,
 		'mno','platinum');
